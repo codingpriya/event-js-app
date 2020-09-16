@@ -1,0 +1,175 @@
+<!-- Enter your HTML code here. Plagiarism will NOT be tolerated!
+Remember, your solution will be manually evaluated within 15 business days. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Events Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="events">
+            <div class="events-inner">
+                <div class="events-image">
+                    <img src="https://i.imgur.com/VtmEVZ5.jpg" alt="event image">
+                    <h4>Canada, Toronto</h2>
+                </div>
+                <div class="events-info">
+                    <div class="event-datetime">
+                        <p>Monday</p>
+                        <h1 class="event-date">21</h1>
+                        <p>August</p>
+                    </div>
+
+                    <div class="other-info">
+                        <button class="basic-plan-btn apply-btn">Apply Now</button>
+                        <span class="success-msg"></span>
+                        <h3>Huge Business Conference</h1>
+                        <span class="organizer">By John Doe</span>
+
+                        <ul class="share-buttons">
+                            <li><a href="javascript:void(0)" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="javascript:void(0)" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="javascript:void(0)" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+
+                        <p class="bottom-link"><a href="#" class="btn see-details see-details-link">>> See Details</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="events premium">
+            <div class="events-inner">
+                <div class="events-image">
+                    <img src="https://i.imgur.com/0y2DC5s.jpg" alt="event image">
+
+                    <div class="events-premium">
+                        <div class="event-datetime">
+                            <p>Monday</p>
+                            <h1 class="event-date">30</h1>
+                            <p>August</p>
+                        </div>
+
+                        <h1 class="heading">Premium</h1>
+                    </div>
+                </div>
+
+                <div class="events-info">
+                    <div class="other-info">
+                        <h3>Huge Business Conference</h1>
+                        <h4 class="event-loc"><i class="fa fa-map-marker"></i> Canada, Toronto</h2>
+                        <span class="organizer">By John Doe</span>
+                        <button class="apply-btn premium-apply-btn">Apply Now</button>
+                        
+                        <p class="error-msg">You don't have premium membership. To know more about it <a href="javascript:void(0)" class="click-link">Click here</a></p>
+
+                        <ul class="share-buttons">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+
+                        <p class="bottom-link"><a href="#" class="btn see-details see-details-link">>> See Details</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium membership modal code -->
+    <div class="modal">
+        <div class="modal-header">
+            <h2>Premium Membership Plans</h2>
+            <span class="close" draggable="true">&times;</span>
+        </div>
+
+        <div class="modal-body">
+            <p>Read below details about our Premium membership plan to partcipate in Premium-only webinar.</p>
+
+            <div class="plan-list">
+                <div class="plan-details business">
+                    <div class="plan-header">Business</div>
+                    <div class="plan-body">
+                        <div class="plan-price">
+                            <h1>$10.99<span>/month</span></h1>
+                        </div>
+                        <ul class="plan-info">
+                            <li><i class="fa fa-check"></i> Lorem ipsum dolor sit amet</li>
+                            <li><i class="fa fa-check"></i> Lorem ipsum dolor sit amet</li>
+                            <li><i class="fa fa-check"></i> Lorem ipsum dolor sit amet</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer">
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="plan-details premium">
+                    <div class="plan-header">Premium</div>
+                    <div class="plan-body">
+                        <div class="plan-price">
+                            <h1>$50.99<span>/month</span></h1>
+                        </div>
+                        <ul class="plan-info">
+                            <li><i class="fa fa-check"></i> Lorem ipsum dolor sit amet</li>
+                            <li><i class="fa fa-check"></i> Lorem ipsum dolor sit amet</li>
+                            <li><i class="fa fa-check"></i> Lorem ipsum dolor sit amet</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer">
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- See event details modal code -->
+    <div class="see-details-modal">
+        <div class="modal-header">
+            <h2>Huge Business Conference</h2>
+            <span class="see-details-close">&times;</span>
+        </div>
+
+        <div class="modal-body">
+
+            <div class="event-info">
+                <p class="location"><span style="font-weight: 600;">Location:</span> Canada, Totnoto</p>
+                <p class="date"><span style="font-weight: 600;">Date:</span> 21st August 2020</p>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+
+            <p class="list-heading">Skills those are required:</p>
+            <ul>
+                <li>JavaScript</li>
+                <li>Angular 2+</li>
+                <li>HTML, CSS</li>
+                <li>ReactJs</li>
+                <li>PHP</li>
+                <li>C++</li>
+            </ul>
+
+            <p class="list-heading">What a candidate should have:</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>consectetur adipisicing elit</li>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>sed do eiusmod tempor</li>
+                <li>consectetur adipisicing elit</li>
+                <li>Lorem ipsum dolor sit amet</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
